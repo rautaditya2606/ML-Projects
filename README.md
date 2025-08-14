@@ -1,6 +1,4 @@
-# hi
-
-## Machine Learning Projects Portfolio
+# Machine Learning Projects Portfolio
 
 This repository showcases a set of applied Machine Learning projects, covering regression, classification, gradient boosting, and deployment using Flask. Each project includes datasets, code, and detailed insights into the modeling process.
 
@@ -8,7 +6,18 @@ This repository showcases a set of applied Machine Learning projects, covering r
 
 ## Projects
 
-### 1. ACME Health Insurance Premium Predictor
+### 1. Rossmann Store Sales Predictor
+- **Algorithm:** XGBoost  
+- **Description:** Predicts store sales using historical data.  
+- **Key Highlights:**  
+  - Feature engineering and time-series decomposition  
+  - End-to-end deployment with Flask  
+- **GitHub:** [Rossmann Deployed](https://github.com/rautaditya2606/Rossman-Deployed)  
+- **Live Demo:** [Rossmann Sales Predictor Live](https://rossman-deployed.onrender.com/)
+
+---
+
+### 2. ACME Health Insurance Premium Predictor
 - **Algorithm:** Linear Regression  
 - **Description:** Predicts insurance premiums based on customer attributes.  
 - **Key Highlights:**  
@@ -18,7 +27,7 @@ This repository showcases a set of applied Machine Learning projects, covering r
 
 ---
 
-### 2. Australia Rain Predictor
+### 3. Australia Rain Predictor
 - **Algorithm:** Logistic Regression  
 - **Description:** Predicts likelihood of rain in Australia based on weather features.  
 - **Key Highlights:**  
@@ -28,23 +37,13 @@ This repository showcases a set of applied Machine Learning projects, covering r
 
 ---
 
-### 3. Breast Cancer Classification
+### 4. Breast Cancer Classification
 - **Algorithm:** Logistic Regression  
 - **Description:** Classifies tumors as benign or malignant using medical features.  
 - **Key Highlights:**  
   - Data normalization and feature scaling  
   - Evaluation using confusion matrix and ROC-AUC  
 - **GitHub:** [Breast Cancer Classification](https://github.com/rautaditya2606/Breast-Cancer-Classification)
-
----
-
-### 4. Rossmann Store Sales Predictor
-- **Algorithm:** XGBoost  
-- **Description:** Predicts store sales using historical data.  
-- **Key Highlights:**  
-  - Feature engineering and time-series decomposition  
-  - End-to-end deployment with Flask  
-- **GitHub:** [Rossmann Deployed](https://github.com/rautaditya2606/Rossman-Deployed)
 
 ---
 
