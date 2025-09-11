@@ -51,7 +51,7 @@ This repository showcases a set of applied Machine Learning projects, covering r
 - **Algorithm:** LightGBM & XGBoost  
 - **Description:** Predicts taxi fare based on trip details and location data.  
 - **Key Highlights:**  
-  - Regression modeling on a large dataset (~100k+ rows)  
+  - Regression modeling on a large dataset (~50M+ rows)  
   - Feature engineering including geospatial transformations  
 - **GitHub:** [NY Taxi Fare Predictor](https://github.com/rautaditya2606/NY_TAXi_Fare)
 
