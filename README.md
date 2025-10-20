@@ -1,85 +1,101 @@
-# Machine Learning Projects Portfolio
+# Deep Learning & Machine Learning Projects Portfolio
 
-This repository showcases a set of applied Machine Learning projects, covering regression, classification, gradient boosting, and deployment using Flask. Each project includes datasets, code, and detailed insights into the modeling process.
+This repository showcases a set of applied Machine Learning and Deep Learning projects, covering regression, classification, CNNs, gradient boosting, and deployment using Flask/FastAPI. Each project includes datasets, code, and detailed insights into the modeling process.
 
 ---
 
 ## Projects
 
-### 1. Rossmann Store Sales Predictor
+### 1. Wheat Disease Detection & Recommendation System
+- **Algorithm:** ResNet50-based CNN  
+- **Description:** Classifies wheat crop diseases from images and provides actionable recommendations for farmers.  
+- **Key Highlights:**  
+  - Achieved **92% accuracy** on multi-class disease classification using deep learning.  
+  - Built an **end-to-end web application**: users input crop/farm data + location; weather info fetched via **OpenWeather API**.  
+  - Integrated **Google Gemini API** for actionable recommendations based on model predictions and farm context.  
+  - Deployed real-time inference system using **FastAPI** and **Windsurf** for responsive web experience.  
+  - Preprocessing included image resizing, normalization, and augmentation to improve CNN performance.  
+  - Demonstrates applied skills in **deep learning, deployment, and full-stack integration for agriculture use-case**.  
+- **GitHub:** [Wheat Disease Detection](https://github.com/rautaditya2606/wheat_detection)  
+
+---
+
+### 2. Rossmann Store Sales Predictor
 - **Algorithm:** XGBoost  
 - **Description:** Predicts store sales using historical data.  
 - **Key Highlights:**  
-  - Feature engineering and time-series decomposition  
-  - End-to-end deployment with Flask  
+  - Feature engineering and time-series decomposition.  
+  - End-to-end deployment with Flask.  
 - **GitHub:** [Rossmann Deployed](https://github.com/rautaditya2606/Rossman-Deployed)  
 - **Live Demo:** [Rossmann Sales Predictor Live](https://rossman-deployed.onrender.com/)
 
 ---
 
-### 2. ACME Health Insurance Premium Predictor
+### 3. New York Taxi Fare Predictor
+- **Algorithm:** LightGBM & XGBoost  
+- **Description:** Predicts taxi fares based on trip details and location data.  
+- **Key Highlights:**  
+  - Regression modeling on a large dataset (~50M+ rows).  
+  - Feature engineering including geospatial transformations.  
+  - Deployed as a REST API with **FastAPI**, containerized using **Docker**.  
+- **GitHub:** [NY Taxi Fare Predictor](https://github.com/rautaditya2606/NY_TAXi_Fare)  
+
+---
+
+### 4. ACME Health Insurance Premium Predictor
 - **Algorithm:** Linear Regression  
 - **Description:** Predicts insurance premiums based on customer attributes.  
 - **Key Highlights:**  
-  - Data preprocessing and exploratory data analysis (EDA)  
-  - Regression modeling with performance metrics evaluation (RMSE, R²)  
+  - Data preprocessing and exploratory data analysis (EDA).  
+  - Regression modeling with performance metrics evaluation (RMSE, R²).  
 - **GitHub:** [ACME Insurance Premium Predictor](https://github.com/rautaditya2606/ACME-Insurance-Premium-Predictor)
 
 ---
 
-### 3. Australia Rain Predictor
+### 5. Australia Rain Predictor
 - **Algorithm:** Logistic Regression  
 - **Description:** Predicts likelihood of rain in Australia based on weather features.  
 - **Key Highlights:**  
-  - Binary classification with accuracy, precision, recall metrics  
-  - Feature selection and handling missing data  
+  - Binary classification with accuracy, precision, recall metrics.  
+  - Feature selection and handling missing data.  
 - **GitHub:** [Australia Rain Predictor](https://github.com/rautaditya2606/Australia-Rain-Predictor/)
 
 ---
 
-### 4. Breast Cancer Classification
+### 6. Breast Cancer Classification
 - **Algorithm:** Logistic Regression  
 - **Description:** Classifies tumors as benign or malignant using medical features.  
 - **Key Highlights:**  
-  - Data normalization and feature scaling  
-  - Evaluation using confusion matrix and ROC-AUC  
+  - Data normalization and feature scaling.  
+  - Evaluation using confusion matrix and ROC-AUC.  
 - **GitHub:** [Breast Cancer Classification](https://github.com/rautaditya2606/Breast-Cancer-Classification)
 
 ---
 
-### 5. New York Taxi Fare Predictor
-- **Algorithm:** LightGBM & XGBoost  
-- **Description:** Predicts taxi fare based on trip details and location data.  
-- **Key Highlights:**  
-  - Regression modeling on a large dataset (~50M+ rows)  
-  - Feature engineering including geospatial transformations  
-- **GitHub:** [NY Taxi Fare Predictor](https://github.com/rautaditya2606/NY_TAXi_Fare)
-
----
-
-### 6. Santander Customer Transaction Prediction
+### 7. Santander Customer Transaction Prediction
 - **Algorithm:** XGBoost Regression  
 - **Description:** Predicts customer transaction behavior for financial insights.  
 - **Key Highlights:**  
-  - Handling high-dimensional features  
-  - Cross-validation and hyperparameter tuning  
+  - Handling high-dimensional features.  
+  - Cross-validation and hyperparameter tuning.  
 - **GitHub:** [Santander Customer Prediction](https://github.com/rautaditya2606/Santander-Customer-Transaction-Prediction)
 
 ---
 
-### 7. Credit Card Fraud Detection
+### 8. Credit Card Fraud Detection
 - **Algorithm:** XGBoost Classifier  
 - **Description:** Detects fraudulent credit card transactions using transaction data.  
 - **Key Highlights:**  
-  - Class imbalance handling with SMOTE  
-  - Model evaluation with precision, recall, and F1-score  
+  - Class imbalance handling with SMOTE.  
+  - Model evaluation with precision, recall, and F1-score.  
 - **GitHub:** [Credit Card Fraud Detection](https://github.com/rautaditya2606/Credt_Card_Fraud_Detection)
 
 ---
 
 ## Skills & Tools Demonstrated
-- **Algorithms:** Linear Regression, Logistic Regression, XGBoost, LightGBM  
-- **Deployment:** Flask, REST APIs  
-- **Data Handling:** Pandas, NumPy, Feature Engineering, Missing Value Treatment  
+- **Deep Learning:** CNNs, Transfer Learning, PyTorch, ResNet50  
+- **Machine Learning:** Linear Regression, Logistic Regression, XGBoost, LightGBM, Scikit-learn  
+- **Deployment:** Flask, FastAPI, REST APIs, Docker  
+- **Data Handling:** Pandas, NumPy, Feature Engineering, Missing Value Treatment, Image Preprocessing  
 - **Evaluation Metrics:** RMSE, R², Accuracy, Precision, Recall, F1-score, ROC-AUC  
 - **Workflow:** EDA → Preprocessing → Modeling → Evaluation → Deployment
